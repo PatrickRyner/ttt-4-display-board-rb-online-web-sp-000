@@ -6,5 +6,5 @@ puts "-----------"
 puts "   |   |   "
 end
 
-display_board
-# out the current state.
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
